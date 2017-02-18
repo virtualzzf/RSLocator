@@ -1,0 +1,1 @@
+MLLIB Word2Vec wordVectors divided by Euclidean Norm equals to zero	In Word2VecModel, wordVecNorms may contains Euclidean Norm equals to zero. This will cause incorrect calculation for cosine distance. when you do cosineVec(ind) / wordVecNorms(ind). Cosine distance should be equal to 0 for norm = 0.
