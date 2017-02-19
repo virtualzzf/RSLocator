@@ -8,7 +8,7 @@ Source code and data set of my thesis submitted to Nanjing University of Posts a
 
 (2)The preprocess scipts are in the "preprocess" file folder, which is writeen by Python. To run these scripts, you need to implement NLTK. The "reportPreprocess.py" is used to preprocess bug reports, and "srcPreprocess.py" is used to preprocess source code file. In this trial, all the reports are in the one file. One report is in a line. So did the source code.
 
-(3)"BM25" and "VSM" are the information retrieve models. You need to create two files named "query.txt" and "corpus.txt".
+(3)"BM25" and "VSM" are the information retrieve models. You need to create two files named "query.txt" and "corpus.txt". Thankss to uyaseen(https://github.com/uyaseen/vsm) and nhirakawa(https://github.com/nhirakawa/BM25).
 
 (4)The Ranking SVM tool is in the file folder "ranking SVM". Its author is  Thorsten Joachims(http://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html). In my trial, I used the linux version. And you need to run a shell script.
 
