@@ -1,6 +1,5 @@
 package dataStructure;
 
-/**特征矩阵，用于存放特征（目前是代码、驼峰字、组件相似度得分）*/
 public class FeatureMatrix {
 	double codeScore,identifierScore,componentScore;
 
