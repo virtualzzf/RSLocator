@@ -2,7 +2,7 @@
 Source code and data set of my thesis submitted to Nanjing University of Posts and Telecommunications for the degree of master of engineering
 
 #Prototype System
-The file folder "RSLocatorSystem" is the prototype system in my thesis. It's a MyEclipse project. You can import it into your MyEclipse and run it.
+The file folder "RSLocatorSystem" is the prototype system in my thesis. It's a MyEclipse project. You can import it into your Eclipse and edit it.
 
 #Trial
 The file folder "trial" contains data set and source code of trials in my thesis. 
