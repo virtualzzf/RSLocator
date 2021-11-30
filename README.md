@@ -1,13 +1,15 @@
 # RSLocator
 Source code and data set of my thesis submitted to Nanjing University of Posts and Telecommunications for the degree of master of engineering
 
+南京邮电大学工程硕士毕业论文《基于学习排序的软件缺陷定位技术研究与实现》数据集及源代码。
+
+RSLocatorSystem文件夹为系统及UI实现，不必深究，实验步骤代码参考trial文件夹。
+
 # Prototype System 原型系统
 The file folder "RSLocatorSystem" is the prototype system showed in my thesis. It's a MyEclipse project. You can import it into your Eclipse and edit it. To run it, you should implement NLTK(http://www.nltk.org/) first. 
 
 # Trial 实验
 The file folder "trial" contains data set and source code of trials in my thesis. 
-
-RSLocatorSystem文件夹为系统及UI实现，不必深究，按步骤实现代码在trial文件夹中。
 
 ## Dataset 数据集
 Query set and Corpus of Apache Spark are in the "SparkDataSet". Bug reports of 1.6.0 and 1.6.1 are in the file "bugReport.txt", and source code of 1.5.2 is in the file "sourceCode.txt". The corpus of file paths is the file "path.txt". The three corpus mentioned above are in the same order. The file "codeQuery.txt", "codeCorpus.txt", "componentQuery.txt", "componentCorpus.txt", "identifierQuery.txt", "identifierCorpus.txt" are preprocessed queries and corpus, which are able to be used to conduct experiments directly.
